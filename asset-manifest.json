@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/cloned-app/static/css/main.a3676efb.css",
+    "main.js": "/cloned-app/static/js/main.68c7193f.js",
+    "index.html": "/cloned-app/index.html",
+    "main.a3676efb.css.map": "/cloned-app/static/css/main.a3676efb.css.map",
+    "main.68c7193f.js.map": "/cloned-app/static/js/main.68c7193f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a3676efb.css",
+    "static/js/main.68c7193f.js"
+  ]
+}
