@@ -1,5 +1,6 @@
 import { auth, provider } from "../firebase-config.js";
 import { signInWithRedirect } from "firebase/auth"
+import "../styles/Auth.css"
 
 import Cookies from "universal-cookie"
 const cookies = new Cookies();
@@ -18,6 +19,6 @@ export const Auth = (props) => {
     }
     return <div className="auth">
         <p> Sign In With Google To Continue</p>
-        <button onClick={signInWithGoogle}> Sign In With Google</button>
+        <button className="btn" onClick={signInWithGoogle}> Sign In With Google</button>
     </div>
 }
